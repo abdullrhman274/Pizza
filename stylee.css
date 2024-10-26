@@ -1,0 +1,364 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Delius';
+}
+
+
+.main{
+    background-image: url(img/jhjh5422-min.png) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.main1{
+    margin-left: 80px; 
+}
+
+.main1 h2{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-shadow: 7px 2px 9px #000000;
+}
+.main1 h3{
+    font-size: 35px;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.main-btn {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 3px solid #e73b0c; 
+
+    font-size: 1.5em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.2em 1.1em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    
+    transition: 0.7s ease;
+   
+   
+}
+.main-btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.main-btn:hover{
+    background-color: #e73b0c;
+    
+    transform:scale(1);
+
+}
+ .fas{
+    margin-top: 800px;
+    color: aliceblue;
+    text-shadow:1px 0px 8px  #ddff00;
+  
+    
+ }
+
+
+
+
+
+
+
+
+
+ .sec2{
+    background: url(img/delicious-pizza-indoors33.png) no-repeat;
+ 
+    
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+    background-size:45%;
+    background-position:10%;
+ }
+
+ .lolo{
+    width: 30%;
+    margin-left: 60%;
+    text-align: center;
+ }
+
+
+.lolo h1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    
+}
+.lolo h2{
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cookie';
+
+
+
+}
+
+.lolo h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 3px solid #e73b0c; 
+
+    font-size: 1.5em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.2em 1.1em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    
+    transition: 0.7s ease;
+
+   
+}
+.btn a{
+    color: #e73b0c;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #000000;
+    
+    transform:scale(1);
+
+}
+
+
+.sec3{
+    background: url(img/Screenshot\ 2024-10-26\ 181600.png) no-repeat;
+ 
+    
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+    background-size:45%;
+    background-position:90%;
+ }
+
+ .lolo2{
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+ }
+
+
+.lolo2 h1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    
+}
+.lolo2 h2{
+    font-size: 44px;
+    color: rgb(0, 0, 0);
+}
+
+.lolo2 h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.sec4{
+    background: url(img/kkkkkkkkkkk.png) no-repeat;
+ 
+    
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+    background-size:80%;
+    background-position:50%;
+}
+
+.sec4 h3{
+    width: 170%;
+    font-size: 35px;
+    margin-left: 50%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 15px #000000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sec5{
+    background: url(img/Untitled-3.png) no-repeat;
+ 
+    
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    
+    background-size:50%;
+    background-position:20%;
+}
+
+.sec5 h3{
+    width: 170%;
+    font-size: 50px;
+    margin-left: 80%;
+    margin-bottom: 600PX;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 15px #d9ff02;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.accordion {
+    width: 400px;
+    background: url(img/wooden-floor-with-blackboard.png);
+    border: 1px solid #e73b0c;
+    border-radius: 20px;
+    
+    margin-left: 35%;
+    height: 400PX;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #818181;
+}
+
+.accordion-title {
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    padding-left: 30PX;
+    padding-right: 30PX;
+margin-top: 30PX;
+
+    font-size: 20px;
+    color: #d9ff02;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.accordion-title:hover {
+    background-color: #acacac72;
+}
+
+.accordion-title:after {
+    content: "⌄";
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.accordion-item.active .accordion-title:after {
+    transform: rotate(180deg);
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 50px; /* Adjust as needed */
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+.SEC7 {
+    width: 100%;
+    min-height: 25vh;
+   background-color: #818181;
+}
+
+.contact-section {
+    display: flex;
+    gap: 20px;
+   
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.contact-card a {
+    color: #ff5722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
